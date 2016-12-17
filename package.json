@@ -44,8 +44,7 @@
   "bugs": {
     "url": "https://github.com/Alu0100673647/nuevo-libro/issues"
   },
-  "homepage": "https://github.com/Alu0100673647/nuevo-libro#readme"
-}
+  "homepage": "https://github.com/Alu0100673647/nuevo-libro#readme",
   "engines": {
     "node": "^4.5.0"
   },

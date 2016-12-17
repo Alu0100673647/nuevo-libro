@@ -1,10 +1,10 @@
 {
   "name": "nuevo-libro-merquililycony",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " ",
-  "main": "gulpfile.js",
+  "main": "gitbook-start.js",
   "bin": {
-    "nuevo-libro-merquililycony": "./bin/gitbook-start.js"
+    "gitbook-start": "./bin/gitbook-start.js"
   },
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",

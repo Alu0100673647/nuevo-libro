@@ -62,7 +62,8 @@
     "simple-git": "^1.54.0",
     "ssh-exec": "^2.0.0",
     "gitbook": "^2.1.0",
-    "gitbook-cli": "^0.3.4"
+    "gitbook-cli": "^0.3.4",
+    "node-libcurl":"^1.0.0"
   }
 }
 

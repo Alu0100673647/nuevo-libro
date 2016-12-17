@@ -91,20 +91,6 @@ gulp.task('deploy-iaas',function(){
 });
 
 
-gulp.task('deploy-heroku', function(){
-  var json_heroku = require(path.join(__dirname,'.gitbook-start/config_heroku.json'));
-  var name_app = json_heroku.name;
-   return gulp.src('').pipe(shell([
-       'git init ;'+
-       'heroku login ;'+
-       'heroku git:remote -a '+name_app+';'+
-       'git add . ;'+
-       'git commit -am "Desplegando en Heroku" ;'+
-       'git push heroku master'
-       ]))
-});
-
-
 gulp.task('deploy-digitalocean',function(){
 
     client.scp('gh-pages/', 'root:esperanza2016@178.62.30.50:/home/src/sytw/gh-pages', function(err) {});

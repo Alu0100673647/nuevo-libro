@@ -1,11 +1,10 @@
 {
-  "name": "nueva-funcionalidad-para-el-paquete-npm-merquililycony",
-
-  "version": "1.4.4",
-
-  "main": "gitbook-start.js",
+  "name": "nuevo-libro-merquililycony",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "gulpfile.js",
   "bin": {
-    "gitbook-start": "./bin/gitbook-start.js"
+    "nuevo-libro-merquililycony": "./bin/gitbook-start.js"
   },
   "scripts": {
     "generate-gitbook": "./scripts/losh generate-gitbook",
@@ -19,8 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony.git",
-    "wiki": "https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony.wiki.git"
+    "url": "git+https://github.com/Alu0100673647/nuevo-libro.git"
   },
   "keywords": [
     "gitbook",
@@ -28,7 +26,6 @@
     "starter"
   ],
   "author": "Merquis-Lili-Cony",
-  "license": "MIT",
   "contributors": [
     {
       "name": "Merquis",
@@ -43,10 +40,12 @@
       "email": "alu0100673647@ull.edu.es"
     }
   ],
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony/issues"
+    "url": "https://github.com/Alu0100673647/nuevo-libro/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-SYTW-1617/nueva-funcionalidad-para-el-paquete-npm-plugins-merquililycony#readme",
+  "homepage": "https://github.com/Alu0100673647/nuevo-libro#readme"
+}
   "engines": {
     "node": "^4.5.0"
   },
@@ -67,3 +66,4 @@
     "gitbook-cli": "^0.3.4"
   }
 }
+

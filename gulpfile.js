@@ -57,22 +57,3 @@ gulp.task('default', ['deploy']);
 gulp.task('pdf',shell.task("gitbook pdf ./txt",{ verbose: true }));
 
 
-
-gulp.task('deploy-ull-iaas-es',function(){
-    var iaas = require ("gitbook-start-iaas-ull-es-merquililycony");
-    iaas.deploy();
-});
-
-
-
-gulp.task('crear-repo',function(){
-    var hero = require("gitbook-start-heroku-merquililycony");
-});
-
-gulp.task('deploy-heroku', function(){
-   return gulp.src('').pipe(shell([
-       'git add . ;'+
-       'git commit -am "Desplegando en Heroku" ;'+
-       'git push heroku master'
-       ]))
-});

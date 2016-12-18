@@ -1,8 +1,6 @@
 # Práctica Digital ocean : Paquete para crear el libro a partir de una plantilla
 
 
-[Plugin: gitbook-start-digitalocean-merquililycony](https://github.com/ULL-ESIT-SYTW-1617/gitbook-start-iaas-ull-es-merquililycony)
-
 1- Descargamos el paquete inicial: **nuevo-libro-merquililycony**
     
 ```bash

@@ -51,9 +51,7 @@ $ npm install
 
  * [Organización](https://github.com/Alu0100673647/nuevo-libro)
 
- **Enlace a Gh-pages**
-
- * [gh-pages]()
+ **Enlace a npm**
 
  * [npm](https://www.npmjs.com/package/nuevo-libro-merquililycony)
 

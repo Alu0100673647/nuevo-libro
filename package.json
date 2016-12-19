@@ -1,6 +1,6 @@
 {
   "name": "nuevo-libro-merquililycony",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": " ",
   "main": "gitbook-start.js",
   "bin": {
@@ -66,4 +66,3 @@
     "node-libcurl":"^1.0.0"
   }
 }
-

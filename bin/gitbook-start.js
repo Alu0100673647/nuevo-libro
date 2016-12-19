@@ -85,7 +85,7 @@ else
             //fs.copy(path.join(__dirname,'../template','app.js'), path.join(basePath, dir , 'app.js'));
             
             fs.copy(path.join(__dirname,'../template','README.md'), path.join(basePath, dir , 'README.md'));
-            fs.copy(path.join(__dirname,'../template','Procfile'), path.join(basePath, dir , 'Procfile'));
+            fs.copy(path.join(__dirname,'../template','.gitignore'), path.join(basePath, dir , '.gitignore'));
             fs.copy(path.join(__dirname,'../template','generar-permisos'), path.join(basePath, dir , 'generar-permisos'));
 
             fs.copy(path.join(__dirname, '../template', 'VERSION'), path.join(basePath, dir , 'VERSION'));
@@ -107,7 +107,6 @@ else
                 console.error(err);
               } else {
                 fs.copy(path.join(__dirname, '../template', 'txt' , 'SUMMARY.md'), path.join(basePath, dir , 'txt', 'SUMMARY.md'));
-
                 fs.copy(path.join(__dirname,'../template', 'txt', 'section1'), path.join(basePath, dir , 'txt', 'section1'), function(err){
                   if(err) {
                     return console.error(err);
